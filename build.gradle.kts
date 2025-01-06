@@ -25,6 +25,10 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    // Spring Boot Starter Data JPA
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    // MariaDB Driver
+    implementation("org.mariadb.jdbc:mariadb-java-client")
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
