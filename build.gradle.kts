@@ -27,6 +27,9 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     // Spring Boot Starter Data JPA
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-security")
+    implementation("org.springframework.security:spring-security-crypto")
+
     // MariaDB Driver
     implementation("org.mariadb.jdbc:mariadb-java-client")
     compileOnly("org.projectlombok:lombok")
